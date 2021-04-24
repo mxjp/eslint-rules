@@ -1,5 +1,6 @@
 {
 	"name": "@mpt/eslint-ts-rules",
+	"version": "1.0.0",
 	"description": "Eslint rules I use for personal typescript projects",
 	"repository": "https://github.com/mxjp/eslint-ts-rules",
 	"type": "module",
