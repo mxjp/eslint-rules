@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import { readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
-const filename = resolve(fileURLToPath(import.meta.url), "../index.json");
+const filename = resolve(fileURLToPath(import.meta.url), "../typescript.json");
 const config = JSON.parse(await readFile(filename, "utf-8"));
 
 config.rules = Object.fromEntries(

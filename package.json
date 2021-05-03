@@ -1,10 +1,9 @@
 {
-	"name": "@mpt/eslint-ts-rules",
+	"name": "@mpt/eslint-rules",
 	"version": "1.0.0",
-	"description": "Eslint rules I use for personal typescript projects",
-	"repository": "https://github.com/mxjp/eslint-ts-rules",
+	"description": "Eslint rules I use for personal projects",
+	"repository": "https://github.com/mxjp/eslint-rules",
 	"type": "module",
-	"main": "./index.json",
 	"peerDependencies": {
 		"@typescript-eslint/eslint-plugin": "^4.22.0",
 		"@typescript-eslint/parser": "^4.22.0",
