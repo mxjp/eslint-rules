@@ -75,10 +75,10 @@
 			{
 				"default": [
 					"signature",
+					"static-field",
 					"instance-field",
 					"constructor",
 					"instance-method",
-					"static-field",
 					"static-method"
 				]
 			}
@@ -186,7 +186,6 @@
 				"ignoreGlobals": true
 			}
 		],
-		"class-methods-use-this": "error",
 		"comma-style": [
 			"error",
 			"last"
@@ -243,10 +242,6 @@
 			"error",
 			"err",
 			"e"
-		],
-		"implicit-arrow-linebreak": [
-			"error",
-			"below"
 		],
 		"import/extensions": [
 			"error",
@@ -315,7 +310,6 @@
 		"no-fallthrough": "error",
 		"no-global-assign": "error",
 		"no-implicit-coercion": "error",
-		"no-implicit-globals": "error",
 		"no-inline-comments": "error",
 		"no-invalid-regexp": "error",
 		"no-irregular-whitespace": "error",
@@ -358,7 +352,6 @@
 		"no-unsafe-negation": "error",
 		"no-unsafe-optional-chaining": "error",
 		"no-unused-labels": "error",
-		"no-use-before-define": "error",
 		"no-useless-backreference": "error",
 		"no-useless-call": "error",
 		"no-useless-catch": "error",
@@ -402,9 +395,6 @@
 			}
 		],
 		"prefer-const": [
-			"error"
-		],
-		"prefer-destructuring": [
 			"error"
 		],
 		"prefer-exponentiation-operator": "error",
