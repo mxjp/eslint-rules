@@ -1,6 +1,6 @@
 {
 	"name": "@mpt/eslint-rules",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "Eslint rules I use for personal projects",
 	"repository": "https://github.com/mxjp/eslint-rules",
 	"type": "module",
@@ -8,7 +8,8 @@
 		"@typescript-eslint/eslint-plugin": "^4.22.0",
 		"@typescript-eslint/parser": "^4.22.0",
 		"eslint": "^7.25.0",
-		"eslint-plugin-import": "^2.2.0"
+		"eslint-plugin-import": "^2.2.0",
+		"eslint-plugin-simple-import-sort": "^7.0.0"
 	},
 	"devDependencies": {
 		"@types/node": "^14.14.41"

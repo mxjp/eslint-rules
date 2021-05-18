@@ -2,7 +2,8 @@
 	"parser": "@typescript-eslint/parser",
 	"plugins": [
 		"@typescript-eslint",
-		"eslint-plugin-import"
+		"import",
+		"simple-import-sort"
 	],
 	"rules": {
 		"@typescript-eslint/array-type": [
@@ -433,9 +434,8 @@
 			"error",
 			"last"
 		],
-		"sort-imports": [
-			"error"
-		],
+		"simple-import-sort/exports": "error",
+		"simple-import-sort/imports": "error",
 		"space-before-blocks": [
 			"error",
 			"always"
