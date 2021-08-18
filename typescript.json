@@ -85,7 +85,6 @@
 			}
 		],
 		"@typescript-eslint/no-duplicate-imports": "error",
-		"@typescript-eslint/no-empty-interface": "error",
 		"@typescript-eslint/no-explicit-any": "error",
 		"@typescript-eslint/no-extra-semi": "error",
 		"@typescript-eslint/no-extraneous-class": "error",
@@ -133,7 +132,6 @@
 				"allowTemplateLiterals": true
 			}
 		],
-		"@typescript-eslint/require-await": "error",
 		"@typescript-eslint/semi": [
 			"error",
 			"always"
@@ -216,10 +214,6 @@
 			"always"
 		],
 		"for-direction": "error",
-		"func-names": [
-			"error",
-			"as-needed"
-		],
 		"function-call-argument-newline": [
 			"error",
 			"consistent"
@@ -404,9 +398,6 @@
 		"prefer-object-spread": "error",
 		"prefer-regex-literals": "error",
 		"prefer-rest-params": [
-			"error"
-		],
-		"prefer-template": [
 			"error"
 		],
 		"quote-props": [
