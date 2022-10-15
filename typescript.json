@@ -340,6 +340,7 @@
 					"events",
 					"freelist",
 					"fs",
+					"fs/promises",
 					"http",
 					"https",
 					"module",
