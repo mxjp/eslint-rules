@@ -1,6 +1,6 @@
 {
 	"name": "@mpt/eslint-rules",
-	"version": "5.0.0",
+	"version": "5.0.1",
 	"description": "Eslint rules I use for personal projects",
 	"repository": "https://github.com/mxjp/eslint-rules",
 	"type": "module",
