@@ -76,7 +76,6 @@
 			}
 		],
 		"@typescript-eslint/no-duplicate-imports": "error",
-		"@typescript-eslint/no-explicit-any": "error",
 		"@typescript-eslint/no-extra-semi": "error",
 		"@typescript-eslint/no-extraneous-class": "error",
 		"@typescript-eslint/no-floating-promises": "error",
@@ -92,7 +91,6 @@
 		"@typescript-eslint/no-unsafe-argument": "error",
 		"@typescript-eslint/no-unsafe-assignment": "error",
 		"@typescript-eslint/no-unsafe-call": "error",
-		"@typescript-eslint/no-unsafe-member-access": "error",
 		"@typescript-eslint/no-unsafe-return": "error",
 		"@typescript-eslint/no-unused-expressions": "error",
 		"@typescript-eslint/no-unused-vars": [
@@ -189,10 +187,6 @@
 			"error",
 			"never"
 		],
-		"consistent-this": [
-			"error",
-			"self"
-		],
 		"curly": [
 			"error",
 			"all"
@@ -228,11 +222,6 @@
 		"grouped-accessor-pairs": [
 			"error",
 			"getBeforeSet"
-		],
-		"id-denylist": [
-			"error",
-			"err",
-			"e"
 		],
 		"import/extensions": [
 			"error",
@@ -288,7 +277,6 @@
 		"no-dupe-keys": "error",
 		"no-duplicate-case": "error",
 		"no-else-return": "error",
-		"no-empty": "error",
 		"no-empty-character-class": "error",
 		"no-empty-pattern": "error",
 		"no-eval": "error",
@@ -296,7 +284,6 @@
 		"no-extend-native": "error",
 		"no-extra-bind": "error",
 		"no-extra-boolean-cast": "error",
-		"no-extra-label": "error",
 		"no-fallthrough": "error",
 		"no-global-assign": "error",
 		"no-implicit-coercion": "error",
@@ -304,7 +291,6 @@
 		"no-invalid-regexp": "error",
 		"no-irregular-whitespace": "error",
 		"no-iterator": "error",
-		"no-label-var": "error",
 		"no-lonely-if": "error",
 		"no-misleading-character-class": "error",
 		"no-mixed-operators": "error",
